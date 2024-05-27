@@ -5,6 +5,8 @@ const nextConfig = {
   basePath: isProd ? "/Portofolio" : "",
   images: {
     unoptimized: true,
+    loader: "imgix",
+    path: "https://musherm.github.io/Portofolio/",
   },
 };
 
