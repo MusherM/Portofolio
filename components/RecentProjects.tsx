@@ -26,7 +26,7 @@ const RecentProjects = () => {
                   />
                 </div>
                 <Image
-                  src={img}
+                  src={process.env.NEXT_PUBLIC_ASSET_PREFIX + img}
                   alt={title}
                   className="z-10 absolute bottom-0"
                 />
