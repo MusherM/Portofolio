@@ -11,8 +11,8 @@ const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
 if (isGithubActions) {
   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
-  assetPrefix = `/${repo}/`;
-  basePath = `/${repo}`;
+  assetPrefix = `https://musherm.github.io/Portofolio/`;
+  basePath = `https://musherm.github.io/Portofolio`;
 }
 
 const nextConfig = {
