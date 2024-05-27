@@ -1,6 +1,7 @@
 import { workExperience } from "@/data";
 import React from "react";
 import { Button } from "./MovingBorders";
+import Image from "next/image";
 
 const Experience = () => {
   return (
@@ -18,7 +19,7 @@ const Experience = () => {
             className="flex-1 text-white border-neutral-200 dark:border-slate-800"
           >
             <div className="flex lg:flew-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
-              <img
+              <Image
                 src={card.thumbnail}
                 alt={card.thumbnail}
                 className="lg:w-32 md:w-20 w-16"
