@@ -7,6 +7,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  env: {
+    NEXT_PUBLIC_ASSET_PREFIX: isProd ? "/Portofolio" : "",
+  },
 };
 
 export default nextConfig;

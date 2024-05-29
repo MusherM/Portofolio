@@ -107,9 +107,10 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <div className="me-3">
-                    <Image
+                    <img
                       src={
-                        process.env.NEXT_PUBLIC_ASSET_PREFIX + "/profile.svg"
+                        (process.env.NEXT_PUBLIC_ASSET_PREFIX || "") +
+                        "/profile.svg"
                       }
                       alt="profile"
                     />
