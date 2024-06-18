@@ -9,7 +9,6 @@ import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
-import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -80,7 +79,7 @@ export const BentoGridItem = ({
         <div
           className={`absolute right-0 -bottom-5 ${
             id === 5 && "w-full opacity-80"
-          }`}
+          } ${id === 4 && "w-1/4 bottom-2 right-2"}`}
         >
           {spareImg && (
             <img

@@ -1,9 +1,8 @@
-"use client";
-import React from "react";
+'use client'
+import React from 'react'
 
-import { AnimatePresence, motion } from "framer-motion";
-import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
+import { AnimatePresence, motion } from 'framer-motion'
+import { CanvasRevealEffect } from '@/components/ui/CanvasRevealEffect'
 
 export default function Approach() {
   return (
@@ -13,9 +12,9 @@ export default function Approach() {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4 ">
         <Card
-          title="Planning & Strategy"
+          title="Learning skills"
           icon={<AceternityIcon order="Phase 1" />}
-          description="We'll collaborate to map out"
+          description="I insist that the official document is always the first step to learn and the last step to get dived in a new tech stack. Ranging from basic grammar and commands to setup a environment, to the most advanced features and best practices, the official document almost provides everything you need."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -23,16 +22,16 @@ export default function Approach() {
           />
         </Card>
         <Card
-          title="Nisha is Munni"
+          title="Project Development"
           icon={<AceternityIcon order="Phase 2" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          description="Once I get the basic grammar of a new tech stack, I'll start to build a project from scratch. I believe that the best way to learn is to do. From the very beginning, I've completed a back-office management project base on Vue3.js + TS, a portfolio project base on Next.js, a prompt share website based on Next.js, MongoDB, and Tailwind CSS, and deployed a Blog based on Nobelium, containing how I solved the problems I met during learning."
         >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
             colors={[
               [236, 72, 153],
-              [232, 121, 249],
+              [232, 121, 249]
             ]}
             dotSize={2}
           />
@@ -40,9 +39,9 @@ export default function Approach() {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Munni is Aditi"
+          title="What's more"
           icon={<AceternityIcon order="Phase 3" />}
-          description="Test"
+          description="A 3D iPhone website is during develepment, which helps me learn Three.js. As I said, if I want to learn something new, I'll just get my hands dirty."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -52,21 +51,21 @@ export default function Approach() {
         </Card>
       </div>
     </section>
-  );
+  )
 }
 
 const Card = ({
   title,
   icon,
   children,
-  description,
+  description
 }: {
-  title: string;
-  icon: React.ReactNode;
-  children?: React.ReactNode;
-  description?: string;
+  title: string
+  icon: React.ReactNode
+  children?: React.ReactNode
+  description?: string
 }) => {
-  const [hovered, setHovered] = React.useState(false);
+  const [hovered, setHovered] = React.useState(false)
   return (
     <div
       onMouseEnter={() => setHovered(true)}
@@ -99,14 +98,14 @@ const Card = ({
         </h2>
         <h2
           className="dark:text-white text-sm opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center"
-          style={{ color: "#e4ecff" }}
+          style={{ color: '#e4ecff' }}
         >
           {description}
         </h2>
       </div>
     </div>
-  );
-};
+  )
+}
 
 const AceternityIcon = ({ order }: { order: string }) => {
   return (
@@ -118,8 +117,8 @@ const AceternityIcon = ({ order }: { order: string }) => {
         </span>
       </button>
     </div>
-  );
-};
+  )
+}
 
 export const Icon = ({ className, ...rest }: any) => {
   return (
@@ -134,5 +133,5 @@ export const Icon = ({ className, ...rest }: any) => {
     >
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
     </svg>
-  );
-};
+  )
+}

@@ -35,7 +35,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Musher, a Next.js Developer based in Nanjing.
+            Hi! I&apos;m Xinyang, a Frontend Developer based in Nanjing.
           </p>
 
           <a href="#about">
