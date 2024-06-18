@@ -89,7 +89,7 @@ export const projects = [
       '/re.svg',
       '/tail.svg',
       '/ts.svg',
-      './nextAuth.svg'
+      '/nextAuth.svg'
     ],
     link: 'Not Deployed Yet'
   }
