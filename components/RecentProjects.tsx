@@ -16,11 +16,11 @@ const RecentProjects = () => {
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
-            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className="sm:h-[30rem] h-[25rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
             <PinContainer title={link} href={link}>
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-15">
-                <div className="relative w-full h-full  overflow-hidden lg:rounded-3xl bg-[#13162d]">
+              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[22rem] h-[15rem] mb-15">
+                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <img
                     src={
                       (process.env.NEXT_PUBLIC_ASSET_PREFIX || '') + '/bg.png'

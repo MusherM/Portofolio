@@ -88,19 +88,19 @@ export const projects = [
       '/next.svg',
       '/re.svg',
       '/tail.svg',
-      '/ts.svg',
-      '/nextAuth.svg'
+      '/nextAuth.svg',
+      '/Mongo.svg'
     ],
-    link: 'Not Deployed Yet'
+    link: 'https://promptopia-musher.vercel.app/'
+  },
+  {
+    id: 3,
+    title: 'Nike Website Clone',
+    des: 'A nike website clone, built to excersice Tailwind CSS.',
+    img: '/nike.png',
+    iconLists: ['/next.svg', '/re.svg', '/tail.svg'],
+    link: 'https://musherm.github.io/Nike/'
   }
-  // {
-  //   id: 3,
-  //   title: 'AI Image SaaS - Canva Application',
-  //   des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-  //   img: '/p3.svg',
-  //   iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-  //   link: 'https://github.com/adrianhajdin/ai_saas_app'
-  // },
   // {
   //   id: 4,
   //   title: 'Animated Apple iPhone 3D Website',
