@@ -98,17 +98,24 @@ export const projects = [
     title: 'Nike Website Clone',
     des: 'A nike website clone, built to excersice Tailwind CSS.',
     img: '/nike.png',
-    iconLists: ['/next.svg', '/re.svg', '/tail.svg'],
+    iconLists: ['/vite.svg', '/re.svg', '/tail.svg'],
     link: 'https://musherm.github.io/Nike/'
+  },
+  {
+    id: 4,
+    title: 'Animated Apple iPhone 3D Website',
+    des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
+    img: '/Apple-web.png',
+    iconLists: [
+      '/vite.svg',
+      '/tail.svg',
+      '/ts.svg',
+      '/three.svg',
+      '/gsap.svg',
+      '/sentry.svg'
+    ],
+    link: 'https://apple-website-musher.vercel.app/'
   }
-  // {
-  //   id: 4,
-  //   title: 'Animated Apple iPhone 3D Website',
-  //   des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-  //   img: '/p4.svg',
-  //   iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-  //   link: 'https://github.com/adrianhajdin/iphone'
-  // }
 ]
 
 export const testimonials = [
